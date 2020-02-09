@@ -22,7 +22,37 @@ namespace BookListRazor
 
         public async Task OnGet() // await requires "public async Task" instead of "public void".
         {
-            Books = await _db.Book.ToListAsync(); // Async and await, instead of while.
+            Books = await _db.Book.ToListAsync(); // await instead of while.
+        }
+
+        public async Task<IActionResult> OnPostAsyncDeleteThisMothaFokka(int id)
+        {
+            var book = await _db.Book.FindAsync(id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            _db.Book.Remove(book);
+            await _db.SaveChangesAsync();
+
+            return RedirectToPage("Index");
+        }
+
+        public async Task<IActionResult> OnPostDeleteThisMothaFokka(int id)
+        {
+            var book = await _db.Book.FindAsync(id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            _db.Book.Remove(book);
+            await _db.SaveChangesAsync();
+
+            return RedirectToPage("Index");
         }
     }
 }

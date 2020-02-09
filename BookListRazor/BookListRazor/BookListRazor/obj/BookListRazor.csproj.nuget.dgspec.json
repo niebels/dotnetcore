@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
+    "C:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
+    "C:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectUniqueName": "C:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "D:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectPath": "C:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\obj\\",
+        "outputPath": "C:\\Projects\\Lab\\dotnetcore\\BookListRazor\\BookListRazor\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://www.nuget.mcw.nl/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
